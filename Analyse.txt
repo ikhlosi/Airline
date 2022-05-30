@@ -1,0 +1,10 @@
+Possible classes:
+- Flight: (int)FlightNum; DateOfFlight; Route; #SeatsSold; Aircraft
+- Route: Departure; ArrivalAirport (IATA); possible transits; Distance (km); 
+- Aircraft: Name; #Seats; Velocity (km/h); FuelCost (euro/person/100km)
+- Catering dept.: ShowOrdersPerAirport(); maybe: Dict<Airport,List<Order>>; 
+- Sales dept.: CalculateAvgOccupancyRateOfFlightPerRoute(); ShowRapportAvgOccupancyRateAnd#FlightsPerRoute(double maxAvgOccupRate); Dict<Route,List<Flight>>
+- Fincance dept: fuelCostPerYear(year): total cost of flights for that year, cateringCostPerYear(year): cost per month and per airport. So per year, month and airport: get total cateringcost and amount of Flights
+
+Idk:
+- Meals: 3.5 euros per meal; ordered from departure airport
